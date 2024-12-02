@@ -1,0 +1,181 @@
+{
+  "help": "https://data.gov.sg/api/3/action/help_show?name=datastore_search",
+  "success": true,
+  "result": {
+    "resource_id": "d_9f6056bdb6b1dfba57f063593e4f34ae",
+    "fields": [
+      {
+        "type": "text",
+        "id": "carpark"
+      },
+      {
+        "type": "text",
+        "id": "category"
+      },
+      {
+        "type": "text",
+        "id": "weekdays_rate_1"
+      },
+      {
+        "type": "text",
+        "id": "weekdays_rate_2"
+      },
+      {
+        "type": "text",
+        "id": "saturday_rate"
+      },
+      {
+        "type": "text",
+        "id": "sunday_publicholiday_rate"
+      },
+      {
+        "type": "int4",
+        "id": "_id"
+      }
+    ],
+    "records": [
+      {
+        "_id": 1,
+        "carpark": "25 Toa Payoh Lorong 8",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "Daily: $1.30 / 30 Mins",
+        "weekdays_rate_2": "-",
+        "saturday_rate": "-",
+        "sunday_publicholiday_rate": "-"
+      },
+      {
+        "_id": 2,
+        "carpark": "45 Burghley Drive",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "$0.018 /min",
+        "weekdays_rate_2": "$0.018 /min",
+        "saturday_rate": "$0.018 /min",
+        "sunday_publicholiday_rate": "$0.018 /min"
+      },
+      {
+        "_id": 3,
+        "carpark": "Ang Mo Kio Hub",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "Mon-Fri: $1.20 for 1st hr; $0.60 for sub. ½ hr or part thereof.",
+        "weekdays_rate_2": "-",
+        "saturday_rate": "Sat, Sun / Ph: $1.30 for 1st hr; $0.65 for sub. ½ hr or part thereof.",
+        "sunday_publicholiday_rate": "Same as Saturday"
+      },
+      {
+        "_id": 4,
+        "carpark": "Balestier Plaza",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "Daily: $1.12 per hr",
+        "weekdays_rate_2": "-",
+        "saturday_rate": "-",
+        "sunday_publicholiday_rate": "-"
+      },
+      {
+        "_id": 5,
+        "carpark": "Balestier Point",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "8am-10pm: $1.20 per hr",
+        "weekdays_rate_2": "Aft 10pm: $2 per entry",
+        "saturday_rate": "Same as wkdays",
+        "sunday_publicholiday_rate": "$2 per entry"
+      },
+      {
+        "_id": 6,
+        "carpark": "Bras Basah Complex",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "7am-5pm: $1 for ½ hr",
+        "weekdays_rate_2": "5pm-1am: $0.50 for ½ hr",
+        "saturday_rate": "Same as wkdays",
+        "sunday_publicholiday_rate": "7am-1am: $0.50 for ½ hr"
+      },
+      {
+        "_id": 7,
+        "carpark": "Causeway Point",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "7am-10.30pm: $1.20 for 1st hr or part thereof; $0.60 for sub.½ hr or part thereof.",
+        "weekdays_rate_2": "7am-10.30pm: $1.20 for 1st hr or part thereof; $0.60 for sub. ½ hr or part thereof.",
+        "saturday_rate": "7am-12 midnight: $1.20 for 1st hr or part thereof; $0.60 for sub. ½ hr or part thereof.",
+        "sunday_publicholiday_rate": "Same as Saturday"
+      },
+      {
+        "_id": 8,
+        "carpark": "Central Place",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "$1.80 for 1st hr; $0.85 for ½ hr",
+        "weekdays_rate_2": "$1.80 for 1st hr; $0.85 for ½ hr",
+        "saturday_rate": "$1.80 for 1st hr; $0.85 for ½ hr",
+        "sunday_publicholiday_rate": "$2.50 per entry"
+      },
+      {
+        "_id": 9,
+        "carpark": "City Square Mall",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "7am-6pm: $1.20 for 1st hr; $0.60 for sub. 30 mins or part thereof.",
+        "weekdays_rate_2": "6pm-3.30am: $3 per entry.",
+        "saturday_rate": "7am-6pm: $1.40 for 1st hr; $0.70 for sub. 30 mins; 6pm-3.30am: $3.50 per entry.",
+        "sunday_publicholiday_rate": "Same as Saturday"
+      },
+      {
+        "_id": 10,
+        "carpark": "Compass Point",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "Daily(7am-11pm): $1.20 for 1st hr or part thereof; $0.60 for sub. ½ hr or part thereof.",
+        "weekdays_rate_2": "-",
+        "saturday_rate": "-",
+        "sunday_publicholiday_rate": "-"
+      },
+      {
+        "_id": 11,
+        "carpark": "Goldhill Plaza",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "7am-5.30pm: $1.60 for 1st hr; $1 for sub. ½ hr",
+        "weekdays_rate_2": "5.30pm-12am: $2 per entry",
+        "saturday_rate": "7am-5.30pm: $1 per hr; Aft 5.30pm: $2 per entry",
+        "sunday_publicholiday_rate": "Same as Saturday"
+      },
+      {
+        "_id": 12,
+        "carpark": "Heartland Mall",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "7am-10.30pm: $1 per hr",
+        "weekdays_rate_2": "Aft 10.30pm: $2 per hr",
+        "saturday_rate": "Same as wkdays",
+        "sunday_publicholiday_rate": "Same as wkdays"
+      },
+      {
+        "_id": 13,
+        "carpark": "Hindoo Road Off-Street",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "Daily: 0700-0700: $0.50 / 30 mins (Per Minute Charging)",
+        "weekdays_rate_2": "-",
+        "saturday_rate": "-",
+        "sunday_publicholiday_rate": "-"
+      },
+      {
+        "_id": 14,
+        "carpark": "Hougang Green Shopping Mall",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "7am-5pm: $1.07 for 1st hr; $0.55 for sub. ½ hr",
+        "weekdays_rate_2": "Aft 5pm: $1.20 per entry",
+        "saturday_rate": "Same as wkdays",
+        "sunday_publicholiday_rate": "7am-12am: $2.15 per entry; Aft 12am: $1.20 per entry"
+      },
+      {
+        "_id": 15,
+        "carpark": "Hougang Mall",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "1st hr: $1.20;  2nd hr: $0.70 per ½ hr; 3rd hr onwards: $1 per ½ hr",
+        "weekdays_rate_2": "1st hr: $1.20;  2nd hr: $0.70 per ½ hr; 3rd hr onwards: $1 per ½ hr",
+        "saturday_rate": "1st hr: $1.30;  2nd hr: $0.70 per ½ hr; 3rd hr onwards: $1 per ½ hr",
+        "sunday_publicholiday_rate": "Same as Saturday"
+      },
+      {
+        "_id": 16,
+        "carpark": "Hougang Plaza",
+        "category": "Central, North & North East",
+        "weekdays_rate_1": "5am-5pm: $0.40 for ½ hr",
+        "weekdays_rate_2": "Aft 5pm: $1.50 per entry",
+        "saturday_rate": "Same as wkdays",
+        "sunday_publicholiday_rate": "$1.50 per entry"
+      }
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Carparks</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<h1>Carpark Details</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Carpark</th>
+        <th>Category</th>
+        <th>Weekday Rate 1</th>
+        <th>Weekday Rate 2</th>
+        <th>Saturday Rate</th>
+        <th>Sunday/Public Holiday Rate</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="carpark : ${carparkData}">
+        <td th:text="${carpark.id}"></td>
+        <td th:text="${carpark.carpark}"></td>
+        <td th:text="${carpark.category}"></td>
+        <td th:text="${carpark.weekdayRate1}"></td>
+        <td th:text="${carpark.weekdayRate2}"></td>
+        <td th:text="${carpark.saturdayRate}"></td>
+        <td th:text="${carpark.sundayPhRate}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
